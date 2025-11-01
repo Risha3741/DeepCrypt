@@ -70,3 +70,4 @@ if __name__ == '__main__':
     dec.save(os.path.join('models', 'decoder_test.keras'))
     ae.save(os.path.join('models', 'autoencoder_test.keras'))
     print(f"\nSaved test models for dynamic input with latent channels: {LATENT_CHANNELS}.")
+
